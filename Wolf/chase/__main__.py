@@ -11,7 +11,7 @@ from termcolor import colored
 from Entities.Animal import distance, Animal
 from Entities.Sheep import Sheep
 from Entities.Wolf import Wolf
-from Parser import init_parser, init_config
+from chase.Parser import init_parser, init_config
 
 
 def count_living():
